@@ -555,11 +555,11 @@ hr {
 @media (max-width: 768px) {
     .title {
         gap: 60px; /* Reducimos la separación entre los h2 a la mitad */
-        height: 60vh; /* Reducimos un poco la altura para no ocupar tanta pantalla inútilmente */
+        height: 90vh;
     }
     
     .title-btn-div {
-        margin-bottom: 100px; /* Reducimos el espacio inferior */
+        margin-bottom: 200px; /* Reducimos el espacio inferior */
     }
 }
 
