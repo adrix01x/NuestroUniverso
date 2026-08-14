@@ -69,14 +69,16 @@ const mensajes = [
     "Me encantan tus piropos de multimedia, aunque no entienda algunos.",
     "Amo tus textos largos y profundos, que me hacen sentir especial.",
     "Amo lo dedicada que eres en todo lo que haces, incluso en los detalles más pequeños.",
+    "Me encanta lo inteligente que eres, eres la mejor.",
     "Me encanta que me hagas sentir la persona más amada en el mundo cuando estamos juntos.",
     "Adoro tus fotos random, que me hacen sonreír cada vez que las veo.",
     "Me encanta cómo piensas en mí en cada momento, incluso estando lejos uno del otro.",
     "Me encantan tus outfits y tu estilo único, que solo te queda GENIAL a ti.",
     "Amo lo tierna que puedes ser después de fingir ser la persona más dura del mundo.",
-    "Amo que seas tú, siempre tú, tú y tú.",
+    "Amo que te hayas aparecido en mi vida sin avisar.",
     "Amo todo lo que te hace ser tú.",
     "Adoro los mil apodos que me pones.",
+    "Me encanta como te ves, sin importar que tengas puesto.",
     "Me encantan lo variado que son tus gustos musicales.",
     "Adoro tus stickers, son TOP, loca.",
     "Adoro que me des fuerzas para seguir adelante, sin importar qué.",
@@ -84,7 +86,11 @@ const mensajes = [
     "Amo tu capacidad para confrontar todos los problemas que hayan.",
     "Admiro como puedes contenerte de llorar en momentos sensibles.",
     "Amo tu apoyo incondicional hacia mí.",
-    "Me encanta cuando me hablas como un niño tiquito."
+    "Me encanta cuando me hablas como un niño tiquito.",
+    "Amo tus referencias romanticas de canciones.",
+    "Adoro ser victima de tus impulsos amorosos.",
+    "Adoro lo expresiva que eres con tus sentimientos.",
+    "Amo lo bien que puedes hacerme sentir solo con tus palabras."
 ];
 
 const MENSAJE_FINAL = "Y todavia faltan cosas que amo de tí, pero si seguimos aqui, no terminamos nunca, TE AMO✨";
@@ -172,7 +178,7 @@ createStar = (contenedor, nombre, cantidad, Y, X, min, max, espacioMinimo) => {
     }
 }
 
-createStar(".estrellas", "estrella", 25, 90, 90, 9, 18, 20);
+createStar(".estrellas", "estrella", 30, 90, 90, 9, 18, 20);
 // ==========================================
 // 4. SECUENCIA DEL SCROLL INICIAL
 // ==========================================
@@ -407,12 +413,11 @@ overlay.addEventListener("click", (e) => {
 
 const colorThief = new ColorThief();
 
-// 🎵 Lista de canciones — reemplaza con tus rutas reales (audio en mp3)
 // category puede ser: "mias", "tuyas" o "ambos"
 const playlist = [
   { title: "As You Are", img: "img/asYouAre.jpg", audio: "songs/As You Are.mp3", category: "ambos" },
   { title: "Limon y Sal", img: "img/limonYSal.jpg", audio: "songs/Julieta Venegas - Limón y Sal ((Cover Audio) (Video)).mp3", category: "ambos"},
-  { title: "Die For You", img: "img/dieForYou.jpg", audio: "songs/Die For You.mp3", category: "ambos" },
+  { title: "La Gloria Eres Tú", img: "img/laGloriaEresTu.jpg", audio: "songs/Luis Miguel - La Gloria Eres Tú.mp3", category: "ambos" },
   { title: "Tu Sancho", img: "img/tuSancho.jpg", audio: "songs/Fuerza Regida - TU SANCHO.mp3", category: "ambos" },
   { title: "Dame Amor", img: "img/dameAmor.jpg", audio: "songs/Officialalex425 - Dame Amor (official Audio).mp3", category: "ambos" },
   { title: "Luther", img: "img/luther.jpg", audio: "songs/Kendrick Lamar - luther (Official Audio).mp3", category: "mias" },
