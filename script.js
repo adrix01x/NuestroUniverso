@@ -425,11 +425,13 @@ const playlist = [
   { title: "Tu Jardin Con Enanitos", img: "img/tuJardinConEnanitos.jpg", audio: "songs/Melendi - Tu jardín con enanitos (audio).mp3", category: "mias" },
   { title: "Nothing's gonna hurt you Baby", img: "img/NGHB.jpg", audio: "songs/Nothing's Gonna Hurt You Baby - Cigarettes After Sex.mp3", category: "mias" },
   { title: "Eres", img: "img/eres.jpg", audio: "songs/Café Tacvba - Eres (Video Oficial).mp3", category: "mias" },
+  { title: "Best Part", img: "img/bestPart.jpg", audio: "songs/Daniel Caesar - Best Part (Audio) ft. H.E.R..mp3", category: "mias" },
   { title: "I wanna Be yours", img: "img/iWannaBeYours.png", audio: "songs/I Wanna Be Yours.mp3", category: "mias" },
   { title: "No podemos Ser Amigos", img: "img/noPodemosSerAmigos.jpg", audio: "songs/Álvaro Díaz - NO PODEMOS SER AMIGOS..mp3", category: "tuyas" },
   { title: "It's Just Us", img: "img/itJustUs.jpg", audio: "songs/Kali Uchis - It's Just Us (Audio).mp3", category: "tuyas" },
   { title: "All The Stars", img: "img/allTheStars.jpg", audio: "songs/Kendrick Lamar, SZA - All The Stars.mp3", category: "tuyas" },
   { title: "Take Me back To LA", img: "img/takeMeBackToLA.jpg", audio: "songs/The Weeknd - Take Me Back To LA (Audio).mp3", category: "tuyas" },
+  { title: "Lose my Mind", img: "img/loseMyMind.jpg", audio: "songs/Don Toliver - Lose My Mind (feat. Doja Cat) [From F1 The Movie] [Official Music Video].mp3", category: "tuyas" },
   { title: "Luna", img: "img/luna.jpg", audio: "songs/ZOE- Luna (Unplugged).mp3", category: "tuyas" }
 ];
 
