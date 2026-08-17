@@ -416,6 +416,7 @@ const colorThief = new ColorThief();
 // category puede ser: "mias", "tuyas" o "ambos"
 const playlist = [
   { title: "As You Are", img: "img/asYouAre.jpg", audio: "songs/As You Are.mp3", category: "ambos" },
+  { title: "The Hills", img: "img/the hills.jpg", audio: "songs/the hills.weba", category: "ambos" },
   { title: "Limon y Sal", img: "img/limonYSal.jpg", audio: "songs/Julieta Venegas - Limón y Sal ((Cover Audio) (Video)).mp3", category: "ambos"},
   { title: "La Gloria Eres Tú", img: "img/laGloriaEresTu.jpg", audio: "songs/Luis Miguel - La Gloria Eres Tú.mp3", category: "ambos" },
   { title: "Tu Sancho", img: "img/tuSancho.jpg", audio: "songs/Fuerza Regida - TU SANCHO.mp3", category: "ambos" },
